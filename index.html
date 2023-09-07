@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LavanyaIndapure</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="mediaquery.css">
+  <link rel="stylesheet" href="hover.css">
+</head>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+</style>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">LaVanYa</div>
+    <div>
+      <ul class="nav-links">
+        <li><a class="navLinks" href="#about">About</a></li>
+        <li><a class="navLinks" href="#skills">Skills</a></li>
+        <li><a class="navLinks" href="#project">Projects</a></li>
+        <li><a class="navLinks" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamberger-nav">
+    <div class="logo">LaVanYa</div>
+    <div class="hamberger-menu">
+      <div class="hamberger-icon" onclick="togglemenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="togglemenu()">About</a></li>
+        <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+        <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+        <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile" class="section">
+    <div class="section_text">
+      <p class="section_text_p1">Hello ,I'm</p>
+      <h1 class="title">Lavanya Indapure</h1>
+      <div class="section_text_p2">Developer</div>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('LavanyaIndapure_Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="icons8-linkedin-64.png" alt="linkedin" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/lavanya-indapure-89058a215/'" />
+        <img src="icons8-github-64.png" alt="github" class="icon github"
+          onclick="location.href='https://github.com/LavanyaIndapure'" />
+      </div>
+    </div>
+    <img src="icons8-double-down-48.png" alt="" onclick="location.href='./#about'" class="icon arrow"
+      style="right: 5rem;" />
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <!-- <br><br><br><br><br><br><br> -->
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container a">
+            <img src="icons8-prize-50.png" alt="" class="icon" />
+            <h3>Experiance</h3>
+            <p>2+ years <br />Frontend Development</p>
+          </div>
+
+          <div class="details-container a">
+            <img src="icons8-graduation-cap-50.png" alt="" class="icon" />
+            <h3>Education</h3>
+            <p>
+              B.Tech<br />Computer Science and Enginnering
+            </p>
+          </div>
+          <div class="details-container a">
+            <img src="icons8-drawing-30.png" alt="" class="icon" />
+            <h3>Hobbies</h3>
+            <p>Playing Chess<br />Join me at <a href="https://www.chess.com/member/lavi_2502"
+                target="_blank">chess.com</a></p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
+            facere. Amet, voluptate consectetur? Consequatur sequi placeat
+            sapiente architecto in temporibus tenetur, vero nulla corporis
+            delectus alias numquam dolore rerum quod obcaecati ipsa id? Sit
+            assumenda a delectus eaque quibusdam provident magnam ducimus
+            tempore, in amet repudiandae perspiciatis eligendi deleniti quas.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="icons8-double-down-48.png" alt="" onclick="location.href='./#skills'" class="icon arrow" />
+  </section>
+
+  <section id="skills">
+    <p class="section_text_p1">
+      Explore my
+    </p>
+    <h1 class="title">Skills</h1>
+    <div class="skill-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-subtitle">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="icons8-checkmark-50.png" alt="" class="icon check">
+              <div>
+                <h1>HTML</h1>
+                <p>Experianced</p>
+              </div>
+            </article>
+            <article>
+              <img src="icons8-checkmark-50.png" alt="" class="icon check">
+              <div>
+                <h1>CSS</h1>
+                <p>Experianced</p>
+              </div>
+            </article>
+            <article>
+              <img src="icons8-checkmark-50.png" alt="" class="icon check">
+              <div>
+                <h1>BootStrap</h1>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="icons8-checkmark-50.png" alt="" class="icon check">
+              <div>
+                <h1>JavaScript</h1>
+                <p>Experianced</p>
+              </div>
+            </article>
+            <article>
+              <img src="icons8-checkmark-50.png" alt="" class="icon check">
+              <div>
+                <h1>React</h1>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="icons8-checkmark-50.png" alt="" class="icon check">
+              <div>
+                <h1>TypeScript</h1>
+                <p>Basic</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="icons8-double-down-48.png" alt="" onclick="location.href='./#project'" class="icon arrow" />
+  </section>
+
+  <section id="project">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="skill-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container p">
+            <img src="amazon2.jpg" alt="" class="project-img image">
+            <div class="overlay overlayBottom">
+              <div class="text">Bottom</div>
+          </div>
+          </div>
+          <h2 class="skill-subtitle project-title">Project 2</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Go Live
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container p">
+            <img src="imgsearcher.jpeg" alt="" class="project-img image">
+            <div class="overlay overlayBottom">
+              <div class="text">Bottom</div>
+          </div>
+          </div>
+          <h2 class="skill-subtitle project-title">Project 3</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Go Live
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container p">
+            <img src="timer.jpeg" alt="" class="project-img image">
+            <div class="overlay overlayBottom">
+              <div class="text">Bottom</div>
+          </div>
+          </div>
+          <h2 class="skill-subtitle project-title">Project 1</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Go Live
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container p">
+            <img src="timer.jpeg" alt="" class="project-img image">
+            <div class="overlay overlayBottom">
+              <div class="text">Bottom</div>
+          </div>
+          </div>
+          <h2 class="skill-subtitle project-title">Project 1</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+              Go Live
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <img src="icons8-double-down-48.png" alt="" onclick="location.href='./#contact'" class="icon arrow" style="bottom: -20rem;"/>
+
+   <center> <h2>View More on GitHub</h2></center>
+  </section>
+</body>
+<script src="index.js"></script>
+<script>
+  function togglemenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamberger-icon");
+
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+  }
+</script>
+
+</html>
