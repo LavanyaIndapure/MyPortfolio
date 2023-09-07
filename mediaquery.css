@@ -12,11 +12,11 @@
     }
   }
   
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 700px) {
     #desktop-nav {
       display: none;
     }
-    #hamburger-nav {
+    #hamberger-nav {
       display: flex;
     }
     #skill,
